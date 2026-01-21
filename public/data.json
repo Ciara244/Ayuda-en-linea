@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Introducción a React",
+      "content": "React es una biblioteca de JavaScript para construir interfaces de usuario. Te ayuda a crear interfaces interactivas de forma sencilla.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+    },
+    {
+      "id": 2,
+      "title": "Componentes",
+      "content": "Los componentes son las piezas básicas de una interfaz en React. Permiten dividir la interfaz en piezas independientes y reutilizables.",
+      "image": "https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+    },
+    {
+      "id": 3,
+      "title": "Hooks (Ganchos)",
+      "content": "Los Hooks son funciones que te permiten 'enganchar' el estado y el ciclo de vida de React desde componentes funcionales.",
+      "image": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1279230/retina_1708x683_staging.toptal.net_designers_blog_files_2023_05_React-Hooks-Guide-Cover-2c93e433db5315d8628469e2c6579f2e.png"
+    }
+  ]
+}
