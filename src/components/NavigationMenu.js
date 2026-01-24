@@ -1,12 +1,14 @@
-const NavigationMenu = ({ sections, onSelectSection, activeId }) => {
+import React from 'react';
+
+const NavigationMenu = ({ sections, onSelectSection, selectedId }) => {
   return (
     <nav className="sidebar">
-      <h3>Temas</h3>
+      <h3>Temario</h3>
       <ul>
         {sections.map((section) => (
           <li key={section.id}>
-            <button 
-              className={activeId === section.id ? "active" : ""}
+            <button
+              className={selectedId === section.id ? 'active' : ''}
               onClick={() => onSelectSection(section)}
             >
               {section.title}
@@ -17,4 +19,5 @@ const NavigationMenu = ({ sections, onSelectSection, activeId }) => {
     </nav>
   );
 };
+
 export default NavigationMenu;

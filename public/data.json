@@ -1,22 +1,70 @@
 {
   "sections": [
     {
-      "id": 1,
+      "id": "welcome",
+      "title": "Bienvenido/a",
+      "content": "¡Hola! Esta es la pantalla de bienvenida. Selecciona un tema del menú para empezar.",
+      "image": "./img/logo.svg",
+      "imageStyle": {
+        "maxWidth": "100%",
+        "maxHeight": "100%"
+      }
+    },
+    {
+      "id": "intro",
       "title": "Introducción a React",
-      "content": "React es una biblioteca de JavaScript para construir interfaces de usuario. Te ayuda a crear interfaces interactivas de forma sencilla.",
+      "content": "React es una biblioteca de JavaScript para construir interfaces de usuario.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
     },
     {
-      "id": 2,
+      "id": "components",
       "title": "Componentes",
-      "content": "Los componentes son las piezas básicas de una interfaz en React. Permiten dividir la interfaz en piezas independientes y reutilizables.",
-      "image": "https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"
+      "content": "Los componentes son las piezas básicas de una interfaz en React.",
+      "image": "./img/componentes.png",
+      "imageStyle": {
+        "maxWidth": "80%",
+        "maxHeight": "80%"
+      }
     },
     {
-      "id": 3,
-      "title": "Hooks (Ganchos)",
-      "content": "Los Hooks son funciones que te permiten 'enganchar' el estado y el ciclo de vida de React desde componentes funcionales.",
-      "image": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1279230/retina_1708x683_staging.toptal.net_designers_blog_files_2023_05_React-Hooks-Guide-Cover-2c93e433db5315d8628469e2c6579f2e.png"
+      "id": "props",
+      "title": "Props",
+      "content": "Las props son propiedades que se pasan a los componentes para configurarlos.",
+      "image": "./img/props.png",
+      "imageStyle": {
+        "maxWidth": "80%",
+        "maxHeight": "80%"
+      }
+    },
+    {
+      "id": "state",
+      "title": "State",
+      "content": "El state es un objeto que representa la parte dinámica de un componente.",
+      "image": "./img/state.png",
+      "imageStyle": {
+        "maxWidth": "80%",
+        "maxHeight": "80%"
+      }
+    },
+    {
+      "id": "lifecycle",
+      "title": "Ciclo de Vida",
+      "content": "El ciclo de vida de un componente incluye métodos que se llaman en diferentes etapas.",
+      "image": "./img/cicloVida.png",
+      "imageStyle": {
+        "maxWidth": "80%",
+        "maxHeight": "80%"
+      }
+    },
+    {
+      "id": "hooks",
+      "title": "Hooks",
+      "content": "Los hooks permiten usar state y otras características de React sin escribir una clase.",
+      "image": "./img/hooks.png",
+      "imageStyle": {
+        "maxWidth": "80%",
+        "maxHeight": "80%"
+      }
     }
   ]
 }
